@@ -7,48 +7,46 @@
 
  body{
  	font-family:'Josefin Sans', sans-serif;
- 	display: flex;
- 	height: 100%;
- 	width: 100%;
- 	margin-top: 60px;
  	background: url(../img/backGround.jpg) no-repeat fixed center;
  	background-size: cover;
- 	overflow: hidden
  }
+
 
  div {
- 	width: 600px;
- 	height: 520px;
- 	margin: auto;
- 	padding-top: 50px;
- 	border: 5px solid #fff;
- 	border-radius: 10%;
+ 	width: 100%;
+ 	height: 650px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	flex-direction: column;
  	color: #fff;
- 	background: hsla(0, 0%, 0%, 0.5);
  }
 
+.box {
+	width: 49%;
+	height: 70%;
+	border: 3px solid #fff;
+	border-radius: 10%;
+	background: hsla(0, 0%, 0%, 0.3)
+} 
+
 .pic { 
-	margin: auto;
-	margin-bottom: 20px;
  	width: 250px;
  	height: 240px;
+ 	margin-bottom: 20px;
  	border-radius: 50%;
  	border: 5px solid #fff;
  	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.7);
- 	display: block;
  }
 
 h1{
- 	width: 100%;
- 	margin: auto;
- 	margin-bottom: 15px; 
+ 	width: 90%;
  	text-align: center;
- 	font-size: 80px;
+ 	font-size: 70px;
  }
 
 h3{
- 	width: 90%;
- 	margin: auto;
+ 	width: 50%;
  	text-align: center;
  	font-size: 30px;
  }
